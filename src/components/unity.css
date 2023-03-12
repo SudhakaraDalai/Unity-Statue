@@ -1,0 +1,148 @@
+.navbar{
+    display: flex;
+    height: 70px;
+    width:auto;
+    background-color: rgb(255,220,150);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+.logoimg{
+    height:70px;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.description{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.para{
+    width: 350px;
+    background-color: rgb(255,216,45);
+    color: rgb(84,116,115);
+    padding: 20px;
+    font-size: large;
+    letter-spacing: 3px;
+    height: inherit;
+    line-height: 25px;
+}
+.videos{
+    width: 500px;
+}
+.videosize{
+    width: 100%;
+    height: 32vh;
+}
+.statueview{
+    height: 500px;
+    width: 98%;
+    box-shadow: 5px 10px 30px grey;
+    padding: 10px;
+}
+.tallest{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(21,64,104);
+    color: white;
+    column-gap: 100px;
+}
+.worldwonders{
+    display: grid;
+    grid-template-columns: repeat(6, 12vw);
+    justify-content: center;
+    background-color: rgb(21,64,104);
+    color: white;
+    padding-top: 40px;
+}
+.imgbox{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.image-container{
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.main-image img {
+	height: 200px;
+	width: 100%;
+  }
+  .product-card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+  }
+  .product-card:hover {
+    box-shadow: 0 0 5px #ccc;
+  }
+.testimonial{
+    display: grid;
+    grid-template-columns: 30vw 40vw;
+    margin-top: 10px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21,64,104);
+    color: white;
+}
+.greybg{
+    background-color: rgb(34,34,34);
+    color: white;
+    height: 100px;
+    margin-bottom: -20px;
+    
+
+
+}
+.blckbg{
+    background-color: rgb(27,27,27);
+    color: white;
+   
+}
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .discription{
+        grid-template-columns: auto;
+    }
+    .videos{
+        width: 400px;
+    }
+    .worldwonders{
+        grid-template-columns: auto;
+    }
+    .testimonial{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+}
